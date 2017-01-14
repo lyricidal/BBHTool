@@ -43,7 +43,7 @@ Other
 - @bbhybrids, @theiexplorers, @mattyg, @crackberry, @n4_bb Tweet pulls
 - How-To/Help menu with instructions/info about each app
 
-Build-A-Hybrid (Advanced Users) (VIP ONLY)
+Build-A-Hybrid (Advanced Users)
 - Optimized Build-a-Hybrid code
 - Only included 5.0 OSs
 - Optimized Radio Swap code + more choices
