@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeLog.Text" xml:space="preserve">
+    <value>Shortcuts:
+Select All - Ctrl + S
+Select None - Ctrl + Del
+Launch Loader - Ctrl + L
+Shrink Your OS - Ctrl + Space
+
+Shrink Your OS:
+1. Begin by selecting the OS folder you would like to shrink items out of.
+2. Checkmark all of the items you would like to shrink (remove) from the selected OS.
+3. Either click "Shrink My OS" or use the shortcut above to start the shrink process. Shrink will now display your current Java folder size.
+4.  When complete, it will display your shrunk Java size and total shrink amount.
+4a. If installing the OS, now you will want to plug in your phone and select "Launch Loader" or use the shortcut above.
+
+Live Shrink:
+This is a BETA feature that shrinks the OS on a device that has one that is unshrunk/untouched. Follow the steps below to try it:
+1. Plug in your device
+2. Create a full back-up of your device
+3. Select all items you would like shrunk (removed) from the OS on your device.
+4. Click "Shrink My OS Live" and confirm.
+5. Device should reboot and should now be shrunk.
+Note: If items you selected have not been removed, try it once more as sometimes removal of certain .cod files will initiate a reboot before the app is done trying to remove them.
+
+Put It Back: 
+1. Begin by selecting the OS folder you would like to restore items to.
+2. Checkmark all of the items you would like to restore to the selected OS.
+3. Click "Put It Back" and it will begin restoring your selections.
+4.  A message box will notify you when the process is complete.
+4a. If installing the OS, now you will want to plug in your phone and select "Launch Loader" or use the shortcut above.
+
+Settings:
+Save - Will save settings to BBHToolSettings.ini
+Load - Will load settings from BBHToolSettings.ini
+
+Tweet Shrink Results:
+Use this button after you have shrunk your OS to tweet @BBHybrids letting us now how much your OS was shrunk.
+Note: This will launch your default browser.
+
+Custom Shrink:
+1. Click "Custom Shrink"
+2. Enter a string for Shrink to remove. Example: net_rim_bb_media* would remove all files that start like that (Must end in * or .cod)
+3. Click "Use Custom Shrink Settings"
+4. Shrink as normal
+</value>
+  </data>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Creating An Install:
+1. Enter the application information*
+2. Select what type of install you would like to create.
+3. Enter a file name and select a save location.
+4. Highlight and select all your .cod files at once and drag and drop them into the labelled box.
+or 
+4. Click "Browse" and select your .cod files
+4b. Choose any options for "After Completion"
+5. Click "Create It!"
+*Alternatively, you may drag and drop the .alx or .jad into the .cod box to have the information automatically entered into the boxes.
+
+Add .cod files to list when dragging .alx/.jad - When dragging an .alx or .jad over the box, this will add the .cod files listed in that file to the list
+
+Options:
+Use OS Install Folder above - uses the OS folder selected at the top
+Move COD Files to Save To folder - Will move the .cod files to the selected save folder
+COD Files will be in Java (.alx) - Only used when creating an .alx file, select this if the files for the created install are intended to be in the Java folder
+
+After Completion:
+Install to connected device - Will install the created .alx or .jad to device
+Upload to theiexplores.com - Will upload the created install to theiexplorers.com/OTA/
+Tweet uploaded link - Will tweet the link that was just uploaded
+Zip all files - Will zip up all the files into FileName.zip
+</value>
+  </data>
+  <data name="RichTextBox2.Text" xml:space="preserve">
+    <value>Download an OTA:
+1. Enter a working link ending in .jad
+2. Select your Save folder
+3. Click "Download OTA"
+4. The app's info will be displayed, as well as the files listed
+5. Once your OTA is downloaded all files will be located in a folder named after the app within your selected Save folder
+
+Convert to .alx when complete - Will convert the .jad information to .alx , adding all information and files
+Open Save folder when complete - Will open your selected Save folder once the OTA download is complete
+
+Advanced Options - Will display the Device/OS entered as the device being used to download</value>
+  </data>
+  <data name="RichTextBox3.Text" xml:space="preserve">
+    <value>Building a Hybrid:
+[Internet Connection Required When Not Using "Offline Mode"]
+1. Select the OS folder you will be working with
+2. For each of the items, select the version of the file you would like to have within your hybid. Once you have made all your selections, the hybrid breakdown will display your choices
+3. Click "Build My Hybrid!" and your selected files will be downloaded/moved into the OS folder you selected
+4. A message box will notify you when your hybrid is built
+4a. Launch Loader to install to device
+
+Radio Swap:
+[Internet Connectioned Required]
+1. Select your device
+2. Select the radio you would like to swap to
+3. Press "Swap My Radio!" and the swap will begin
+4. A message box will notify you when the swap is complete
+
+File Swapper:
+1. Select an input folder that you will be taking the files from
+2. Select an output folder that you will be putting the files into
+3. Enter a list of files, seperated line by line, that you would like to swap
+3a. Select "Swap Full Java" if you would like to swap all the common files
+4. Click "Swap My Files!" to begin the file swapping process
+5. A message box will notify you when the swapping process is complete
+5a. Launch Loader to install to device
+
+Restore Java:
+1. Click "Restore Java"
+2. Confirm that you would like to so
+3. The original backup of your Java folder will be restored
+</value>
+  </data>
+  <data name="RichTextBox4.Text" xml:space="preserve">
+    <value>To use any of these features, you must plug in your device, enter your password (if you have one), and click "Connect"
+
+File System:
+Read - Will read all of the files currently on your device and list them alphabetically
+Save as .txt - Will save the list of files and total number to .txt file
+
+.COD Files:
+Install - Will open up a Folder Browser Dialogue box for you to select the file(s) you would like to install to the connected device
+Remove - Will remove the file(s) you have selected in the list beside it
+Save - Will save the file(s) you have selected in the list beside it to the current folder
+Save All -  Will save all .cod files from the connected device
+
+Third Party Apps:
+Backup - Backs up all current apps on the connected device 
+Restore - Restores the backup to the connected device
+
+Event Log:
+Read - Will read the current event log on your device
+Save as .txt - Will save your current event log to a .txt file
+Clear Log On Device - Will clear the event log on your device
+
+Other:
+Recover Memory - Will attempt to recover the amount of memory entered
+Take Screenshot - Will take a screenshot of your current screen and save it to the current folder
+Sync Time - Will sync the time on your PC to the time on your device
+Factory Reset - Will reset all settings to factory, must be confirmed
+Wipe Device - Will wipe your device to 507, must be confirmed</value>
+  </data>
+  <data name="RichTextBox6.Text" xml:space="preserve">
+    <value>To enable Development Mode:
+1. Go to the 'Security' tab in Options
+2. Select Development Mode
+3. Turn "Use Development Mode" to On
+4. Enter password
+
+To obtain your PlayBook's IP address:
+1. With Development Mode enabled, select the new gears icon in the notification bar
+IP Address will be listed here
+or
+1. Go to the PlayBook About screen
+2. Change drop-down from 'General' to 'Network'
+3. The IPv4 is your PlayBook IP
+
+Adding .BAR/.APK files:
+1. Drag/drop .BAR file to the install box
+Note: If "Install on drag/drop" is checked, BBHTool will attempt to install the .BAR file(s) to your PlayBook 
+or
+1. Browse to add
+or
+1. Use auto-add .BAR files feature
+
+Installing a .BAR:
+1. Enter PlayBook IP
+2. Enter PlayBook password (if required)
+3. Select the desired file(s) to install
+4. Click Install It
+
+Uninstalling a .BAR:
+1. Enter PlayBook IP
+2. Enter PlayBook password (if required)
+3. Select the desired file(s) to uninstall
+4. Click Un-Install It
+
+Remote .BAR Link:
+1. Enter a link to .bar you would like to install
+2. Click Install It
+
+Device Info - Reads and displays the PlayBooks device info [savable to .txt]
+App Read - Reads and displays the installed apps [savable to .txt]
+Auto-add .BAR Files - If you keep all your .BAR files in one folder, you may use this feature to point to that folder and automatically add those files to list on start-up
+Launch .BAR after install - Will launch the application once installed to PlayBook
+Install file(s) on drag/drop - Will install the dragged files to the PlayBook
+Convert .apk(s) on drag/drop - Will convert dragged .apk(s) to .bar(s)
+
+Launch Network Drive - Launches your PlayBooks network drive for convenience, requires File Sharing/WiFi Sharing [if not plugged in] to be enabled
+
+APK Converter
+*Please select your Android SDK folder prior to usage of this potion of the tool.
+Converting a .APK:
+1. Add .apk file(s)
+2. Select Save To folder
+3. Click Convert It
+
+Converting and signing an .APK:
+1. Add .apk file(s)
+2. Select Save To folder
+3. Checkmark "Sign Converted Files"
+4. Enter signing information and select the .p12 file
+5. Click Convert/Sign It
+
+Install after completion - Will install the converted .APK file(s) to PlayBook
+
+
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAADAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMD
+        A/8DAwP/BAQE/wgICP9NSEX/eHJu/2xoZf8rKSf/BAQE/wQEBP8EBAT/BwYG/0lEQf+OhoH/joeD/1JM
+        Sv8LCgr/BAQE/wUFBf+IgHz/TkxK/ycnJv8qKSj/eXNx/0Q/PP8FBQX/BQUF/2NdWv9qZmT/MjIw/yop
+        KP9eW1n/e3Jt/wUFBf8GBgb/oZqW/wYGBv8GBgb/BgYG/ysqJ/9oYFr/BgYG/wYGBv99d3P/FRQU/wYG
+        Bv8GBgb/BgYG/4yFfP8GBgb/CAgI/52Sj/8ICAj/CAgI/wgICP8rKSf/Z19Y/wgICP8ICAj/dG5q/xYV
+        Ff8ICAj/CAgI/wgICP+IfXX/CAgI/wkJCf+WjIf/DhAP/2llX/+bkYf/iX94/0tEQf8NDQ3/DQ0N/1NN
+        Sv+AdnD/jH91/0ZDPf8JCQn/gnhu/wkJCf8LCwv/m5CN/wsLC/8LCwv/NTIx/4F3cv9VTUr/Li0s/zw8
+        O/9hWVX/fHJr/zEyLv8LCwv/CwsL/391bv8LCwv/DQ0N/6ymov8NDQ3/DQ0N/w0NDf8aGhr/enh0/6Ob
+        lv+jm5T/XV1Y/zk5Of8zMzP/DQ0N/w0NDf+bkoz/DQ0N/w4ODv+3sq//Dw8P/w8PD/8PDw//NDQ0/3t8
+        ef+wq6f/vLm2/3F0b/8eHx7/ISEh/xAQEP8ODg7/qqWf/w8PD/8QEBD/wLy7/xAQEP8QEBD/MDAw/7Gw
+        r/9/e3r/GBgY/ywsLP+Mi4v/ury6/1FUUv8YGBj/EBAQ/7Wyrv8QEBD/EhIS/8G/vf8UFRX/gIOB//Dy
+        8f/Tzs3/hH58/yIiIv80NDT/kY6L/9/c2v/w8vH/foJ+/xISEv+2tbD/ERER/xQUFP/Cv73/FRYV/yEi
+        If8hIiH/TU9O/46KiP8UFBT/ExMT/5yamv80NTT/ISIi/yEiIf8UFBT/t7Wx/xMTE/8VFRX/wbu3/xUV
+        Ff8VFRX/FRUV/0JCQP+Jg37/FRUV/xUVFf+ZlJL/KCgo/xUVFf8VFRX/FRUV/7Gtpv8VFRX/FhYW/9PL
+        wf9YVEz/IB8e/ycmJP+IgXb/Y1xV/xYWFv8WFhb/cm5p/4R9cv8jIiH/IB8e/11ZUf+WjYH/FhYW/xkZ
+        Gf87Ozv/p6CY/8zBtf+7r6L/c2pj/xsbG/8ZGRn/GRkZ/xoaGv9uamX/s6me/7isn/+FfHP/JSQj/xkZ
+        Gf8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>

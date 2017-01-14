@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeLog.Text" xml:space="preserve">
+    <value>v2.5.0.0
+- Added BB10-Shrink - shrink your OS/Blitz folder before installing
+
+ v2.4.9.7b
+- Added setting to seperate ALX/COD files during shrink
+- Added shortcut to refresh OS folders in dropdown list - F5
+- Added Shrink All button to BlackBerry apps group
+- Added T-Mobile Error Translator to Shrink options
+- Updated Device selections
+- Various code optimizations to Select All/None, Save/Load Settings
+
+v2.4.9.7a
+- Removed broken links
+- Updated download link
+- VIP version is now available to all
+
+v2.4.9.7
+- Added Batch OTA downloading to OTA Downloader
+- Added ability to load a batch OTA download list from file
+- Added ability to choose what device/OS to show when downloading OTAs
+- Added ability to install .apk files to a connected Android device in the PlayBook tab
+- Added option to Convert .apk(s) on drag/drop in PlayBook tab (otherwise they're added to list for install to an Android device)
+- Fixed LiveShrink
+- Fixed issue with OTA creation when adding files via the button
+- Fixed Move COD Files to Save To folder in Create-A-JAD
+- Fixed Convert to .alx when complete in OTA Downloader
+- Improved OTA Downloading code
+- Organized Shrunk files list to seperate .alx files and .cod files
+- Updated Shrink for Verizon Name ID
+- Updated PlayBook APK conversion and BAR signing tools
+- Updated JavaLoader.exe to latest from BlackBerry JDE 7.1.0
+- Updated Help info
+
+v2.4.9.6
+- Added ability to sign BAR files in the APK Converter within PlayBook Tab
+- Added Shrinking for BlackBerry Travel and Finnish language
+- Added password request for "Install to connected device" option in Create-A-JAD for passworded devices
+- Added ability to save shrunk files list (for help with shrink errors)
+- Fixed DPI Awareness
+- Removed Install A Hybrid tab, any future implementation (if any) will be in Build-A-Hybrid tab
+
+v2.4.9.5
+- Added Install after completion to APK Converter (previously disabled)
+- Added Install to connected device option to Create-A-JAD 
+- Added @BerryReview and @OpenSourceBB as Show Tweets options
+- Added Delete Vendor.xml button to Start tab
+- Added BlackBerry Mobile Conferencing shrink item
+- Disabled shrinking of Latin font for OS7/7.1 as it was causing reboots (won't shrink even when checked)
+- Fixed Screenshots for newer devices as well as uploading and tweeting screenshots
+- Fixes to PlayBook tab and improved error handling
+- Minor skin fixes
+- New icon - thanks to @_Lucky45
+- Optimized Screenshot uploading so BBHTool doesn't freeze while doing so
+- Optimized and updated Vendor.xml removal
+- Updated Android SDK link
+- Updated shrink for Croatian (Languages) and T-Mobile Name ID
+
+v2.4.9.4
+- Added APK Converter/Signer (PlayBook tab)
+- Added Drag/Drop and Clear button to File Swapper (Build-A-Hybrid tab)
+- Added option to Open OTA Downloader save folder after download
+- Changed .APK handling (PlayBook tab)
+- Changed functionality of the Settings -&gt; Start Tab
+- Fixed warning messages that show for Latin (Default) font and Ringtones
+- Fixed Tweet Shrink Results/Tweet Shortened Link (Hopefully! Works with Chrome)
+- Fixes to "Put It Back" feature
+- Fixes to various shrink items
+- Updated Shrinking to work with OS 7.1
+- Updated skins
+- Various minor UI fixes/adjustments
+ 
+v2.4.9.3
+- Added "Create Desktop Shortcut Button" to Start tab
+- Added ability to install .rem (app world backups) files to phone
+- Added deletion of new Vendor.Xml file
+- Added shrink items: Croatian (Languages), Latin Truetype (Fonts), PDFToGo (DocsToGo)
+- Fixed Backup/Restore of Third Party Apps (currently .jad only)
+- Updated JavaLoader.exe (from BlackBerry JDE 7.0 Beta 2)
+- Updated shrink for: Themes (Defaults), European (Fonts)
+- Updated Device dropdown list
+- Removed "SIM Card Capabilites" shrink
+
+v2.4.9.2
+- Added "Un/Check All" for BAR/APK installation
+- Added Java detection (for PlayBook tab)
+- Added Display Event Log checkbox to PlayBook for easier troubleshooting
+- Combined the .bar/.apk lib/platform-tools folders into one
+- Fixed Save .CODs/Save All .CODs crash upon completion
+- Improved .apk installation handling
+
+v2.4.9.1
+- Added App Read button to PlayBook
+- Added save App Read/Device Info to .txt buttons
+- Added launch .BAR after install option
+- Added progress bar to PlayBook tab
+- Added .APK installer for Android/Android Player on PlayBook
+- Added Launch Network Drive button
+- Fixed mutliple .BAR un/installation
+- Various GUI changes/fixes
+
+v2.4.9
+- Added feature to drag/drop .cod files to install to device in Phone Tools
+- Added PlayBook tab - allows install/uninstall of .BAR files, displays device info
+- Fixed passworded devices not being able to connect to Phone Tools
+- Fixed Offline Mode Hybrid Building/added confirmations and ChangedFiles folder
+- Fixed File System Read - now shows all files, and sortable
+- Fixed Languages not being remembered when app was re-opened
+- Fixed Select None not deselecting Advanced Options
+- Fixed tweets for BBHPlus not working
+- Moved Radio Swap to Build-A-Hybrid tab
+- Updated JavaLoader to latest included in 7.0 JDE
+- Updated HowTos
+
+v2.4.8
+- Added shrink for PIMClient by China Mobile (Apps) and G3eWalk by aspire-tech (Apps)
+- Updated tool tips for some items
+- Renamed "Defaults" group to "Media"
+
+v2.4.7
+- Added shrink for Amazon MP3 Music Store (OS7)
+- Updated shrinking for Backup Assisstant, Hindi, Vietnamese
+
+v2.4.6
+- Added more shrinking options: Engineering Screen (Advanced), News (Apps), Protect (Apps), Radio (Apps), Wireless Music Sync (Apps)
+- Fixed Setup Wizard shrink for OS5
+
+v2.4.5
+- Added progress bar to Phone Tools
+- Added checkbox in Create-A-JAD for when dragging alx/jads
+- Added Install-A-Hybrid tab (BETA)
+- Added "Take Screenshot" button, as well as "After Screenshot" options to the screenshot viewer
+- Added ability to copy screenshot to clipboard
+- Added shrinking options: Basque (language), Chinese Dictionary (Apps), Mobile Reader (Apps), Mobile Market (Apps) Global (font), Monotype (font) Thai (font)
+- Changes/fixes to various "Phone Tools" items
+- Fixed Copy to clipboard and Tweet after shortening under URL Shortening
+- Fixed "Save All" under Phone Tools so that the .cod files get copied to the folder correctly
+- Minor fixes/changes to skins/UI
+- Moved "OTA Upgrade" to Advanced shrink options
+- Updated shrinking for Default Videos, Setup Wizard, and Slacker
+- Renamed saved .txt's in Phone Tools (System Read, and Event Log) to include PIN of device it came from
+- Renamed folder for "Save All" under .COD Files to include PIN it came from ("Dump-PIN")
+
+v2.4
+- Added "Browse" to Create-A-JAD to browse for files instead of Drag &amp; Drop
+- Added "Custom Shrink" button - see how-to for further info
+- Added "Offline Mode" for Build A Hybrid (use OS folders on PC)
+- Added "Restore Java" button to restore original Java folder
+- Added "Recover Memory" to "Phone Tools" tab
+- Added "Restore" for Third-Party Apps
+- Added @BBTweaks and @Driphter_Com to Latest Tweet choices
+- Added description to "Phone Tools" tab, as many users were not sure what was available
+- Added download links to "Latest BBHybrids"
+- Added file count to Shrink-A-OS
+- Added settings for all tabs to BBHToolSettings.ini
+- Added more URL shortening service choices: issimo.me, ota4.me, bl4q.me
+- Fixed Browse for settings file
+- Fixed handling of "&amp;" in URL shortening
+- Fixed Phone Tools not connecting to phone with new JavaLoader
+- Fixed start-up message selection not being saved
+- Fixed Total Files count visibility in Phone Tools
+- Fixed some shrink items that were causing boot-up errors
+- Optimized Create-A-JAD code
+- Optimied Latest BBHybrid/Latest OS code
+- Optimized Tweet Pulling code
+- Updated How-to with info on new additions
+- Updated Save Apps, now creates .jad files as well
+- Various UI changes/fixes
+- Renamed Settings file to BBHToolSettings.ini
+
+v2.3
+- Added shrink support for Default 102DM Tree (Advanced option), Accessibility Options (Advanced option), Hindi language
+- Added "Latest OS" button to show latest OS available for your selected device
+- Added start-up message for new users to choose to go straight to Help
+- Changed Select All shortcut so that it does not conflict with Select All text (Ctrl + s)
+- Fixed issue with Indonesian language shrinking
+- Optimized Shrink/Put It Back to use MUCH less code = faster and more effective
+- Removed Message boxes displaying folder size before and after shrinking, now just displayed in info box in Shrink tab
+- Updated shrink for BB Maps, Bluetooth, Default Themes, S/MIME support, UK English, and Visual Voice Mail
+- Updated @bbleaks to @n4_bb (they changed names)
+
+v2.2
+- Added keyboard shortcuts for Help (F1), Select All (Ctrl + A), Select None (Ctrl + Del), Shrink My OS (Ctrl + Space) and Launch Loader (Ctrl +L)
+- Added How To/Help for all tabs
+- Added button to launch "DM" (Desktop Manager)
+- Added Progress bar to File Swapper
+- Added link to help in each tab
+- Re-organized Help Menu
+
+v2.1
+- Added 9780/9670 to Device Drop-down
+- Added Info about Shink My OS Live button (Click "?")
+- Added "Shrink All" box for Applications
+- Added Total shrunk amount
+- Added more shrinking options: Languages - Indonesian, Vietnamese; Apps: AT&amp;T Hot Spot, DoD Certificates, Slacker, MemoPad, Suretype T12, Tasks; Fonts: Arabic, Indic, Japanese
+- Added "Swap Full Java" in File Swapper (B-a-H)
+- Added button to Refresh OS Folders beside the OS Folder box
+- Added, updated and corrected tool tips for many items
+- Cleaned up code to optimize various features
+- Fixed Tweet options to remove all the added "+"s
+- Modified ShrinkSettings.ini to be a bit more oganized
+
+v2.0
+- Added "Live Shrink" option - removes Shrink Options for device after its been installed to device
+- Added File Swapper to Build-A-Hybrid tab for easy OS file swapping
+- Added Shrink for Backgrounds[OS6], Backup Assisstant[OS6], Music[OS6], Startup Videos[OS6], Fonts[OS6], Feeds[OS6], Podcasts[OS6[, Movitalk[OS6], YouTube[OS6], and MySpace 
+- Added "Tweet It" Option for OTAs created and uploaded with BBH Tool
+- Added "Tweet link after shrink" checkbox to URL shrinking
+- Fixed issue with URL Shrinking
+- Fixed "Phone Options" going missing when shrinking TTY in OS6
+- Re-organized Shrink-A-OS
+
+v1.9
+- Added "Add 6.0 Files"/"Add 5.2 Files" buttons to add 6.0/5.2 files to your OS install
+- Added @bbleaks/@crackberry/Other Users Latest Tweets options
+- Added Screenshot Viewer w/ Upload/Shrink Link/Tweet Link Options
+- Added "T-Mobile Mobile Backup" Shrink option
+- Adjusted "Take Screenshot" file name to contain date, random numbers to prevent overwriting previous screenshots
+- Changed "BBH Tool is in current OS folder" to a drop-down menu option
+- Fixed Skins for Windows XP
+- Fixed issue where some languages were shrunk when you checked Remove All and unchecked the language
+- Renamed "Refresh" button to "Show Tweets" / "Find Latest Hybrid?" to "Latest BBHybrids"
+- Removed "Search" from "Over-The-Top" shrinking as it was causing bricks
+- Removed "Add To OS Install"
+
+v1.8
+- Added Skins menu (Default, Black/Grey, Black/Pink)
+- Added Option to Automatically Launch Loader after Shrink, Save Settings on Shrink
+- Added Change Log to Help menu
+- Added Url shortening choices - bb-h.me, tbz.me, l2s.cc, dcom.me
+- Added confirmation for "Wipe Device", Wipe/Factory Reset fonts red
+- Added "Save Apps" Button to Phone Tools
+- Added ToolStrip/MsgBox updates/confirmations for Phone Tools functions
+- Fixed Auto-Tweet after shrink
+- Fixed start-up error when no OSs were installed
+- Optimized various code
+
+v1.7
+- Fixed url shrinking for links with "+" in them
+- Added file system read/save read, event log read/save read, wipe, factory reset, etc. functions
+- Added "Tweet Shrink Results" button/Option to autotweet after shrink
+- Added MyFaves shrink option
+- Added "Over-The-Top" Shrink Options (Camera, Bluetooth, Search, Video Camera) [Hidden by default]
+
+v1.6
+- Added "OTA Downloader" with convert to .alx option
+- Added "Tweet My Link!" button for bb-h.me URL shortening
+- Added "@mattyg" option for tweets (@irtehun's are protected, so his won't work)
+- Fixed warning for BaH showing in OTA Downloader
+- Fixed and Added error handling to bb-h.me URL shrinking
+
+v1.5
+- Added Latest Tweets box (can choose @BBHybrids tweets or @theiexplorers)
+- Moved some buttons/checkboxes to the top Menu (Check for Updates, Suggestions, Always on Top)
+- Removed "Links" Menu item
+- Fixed issue with Create-A-JAD where files would not be moved when selected to
+
+v1.4
+- Added bb-h.me Link shrinking in "Other" tab (with custom URL option)
+- Added "Launch BBMCP" button
+- Optimized Check For Update/Fixed Check At Start-up
+- Removed/optimized some Swap-A-Radio code
+- Updated dead links to topics
+
+V1.3
+- Fixed issue where sometimes folders being selected from the dropdown were not actually changed
+- Fixed BBM shrinking
+- Fixed alignment of Total Files count in C-a-J
+- Added Shrink support for Lunar Calendar, more default themes, additional english
+- Zip it function should now work
+
+v1.2
+- Added Shrink support for App World, Mobile Stock, Music.cn, TeleNav, Verizon Push-To-Talk, Fetion
+- Added ability to Save/Load Shrink Settings to file
+- Minor bugfixes to C-A-J, Other Tab
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA
+        AAADAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMDA/8DAwP/AwMD/wMD
+        A/8DAwP/BAQE/wgICP9NSEX/eHJu/2xoZf8rKSf/BAQE/wQEBP8EBAT/BwYG/0lEQf+OhoH/joeD/1JM
+        Sv8LCgr/BAQE/wUFBf+IgHz/TkxK/ycnJv8qKSj/eXNx/0Q/PP8FBQX/BQUF/2NdWv9qZmT/MjIw/yop
+        KP9eW1n/e3Jt/wUFBf8GBgb/oZqW/wYGBv8GBgb/BgYG/ysqJ/9oYFr/BgYG/wYGBv99d3P/FRQU/wYG
+        Bv8GBgb/BgYG/4yFfP8GBgb/CAgI/52Sj/8ICAj/CAgI/wgICP8rKSf/Z19Y/wgICP8ICAj/dG5q/xYV
+        Ff8ICAj/CAgI/wgICP+IfXX/CAgI/wkJCf+WjIf/DhAP/2llX/+bkYf/iX94/0tEQf8NDQ3/DQ0N/1NN
+        Sv+AdnD/jH91/0ZDPf8JCQn/gnhu/wkJCf8LCwv/m5CN/wsLC/8LCwv/NTIx/4F3cv9VTUr/Li0s/zw8
+        O/9hWVX/fHJr/zEyLv8LCwv/CwsL/391bv8LCwv/DQ0N/6ymov8NDQ3/DQ0N/w0NDf8aGhr/enh0/6Ob
+        lv+jm5T/XV1Y/zk5Of8zMzP/DQ0N/w0NDf+bkoz/DQ0N/w4ODv+3sq//Dw8P/w8PD/8PDw//NDQ0/3t8
+        ef+wq6f/vLm2/3F0b/8eHx7/ISEh/xAQEP8ODg7/qqWf/w8PD/8QEBD/wLy7/xAQEP8QEBD/MDAw/7Gw
+        r/9/e3r/GBgY/ywsLP+Mi4v/ury6/1FUUv8YGBj/EBAQ/7Wyrv8QEBD/EhIS/8G/vf8UFRX/gIOB//Dy
+        8f/Tzs3/hH58/yIiIv80NDT/kY6L/9/c2v/w8vH/foJ+/xISEv+2tbD/ERER/xQUFP/Cv73/FRYV/yEi
+        If8hIiH/TU9O/46KiP8UFBT/ExMT/5yamv80NTT/ISIi/yEiIf8UFBT/t7Wx/xMTE/8VFRX/wbu3/xUV
+        Ff8VFRX/FRUV/0JCQP+Jg37/FRUV/xUVFf+ZlJL/KCgo/xUVFf8VFRX/FRUV/7Gtpv8VFRX/FhYW/9PL
+        wf9YVEz/IB8e/ycmJP+IgXb/Y1xV/xYWFv8WFhb/cm5p/4R9cv8jIiH/IB8e/11ZUf+WjYH/FhYW/xkZ
+        Gf87Ozv/p6CY/8zBtf+7r6L/c2pj/xsbG/8ZGRn/GRkZ/xoaGv9uamX/s6me/7isn/+FfHP/JSQj/xkZ
+        Gf8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoaGv8aGhr/Ghoa/xoa
+        Gv8aGhr/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
